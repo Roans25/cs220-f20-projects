@@ -10,9 +10,7 @@ import traceback
 import re, ast, math
 from collections import namedtuple, OrderedDict, defaultdict
 from functools import wraps
-from cleanMAC import clean
 
-clean()
 
 PASS = 'PASS'
 FAIL_STDERR = 'Program produced an error - please scroll up for more details.'
